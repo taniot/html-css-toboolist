@@ -127,6 +127,7 @@ section.task {
 
 .task-container h2 {
   color: #434851;
+  margin-bottom: 20px;
 }
 
 .task-container h2::before {
@@ -186,4 +187,8 @@ section.task {
 .task-container ul li .tag.recruting {
   background-color: lightsalmon;
   border-color: lightsalmon;
+}
+
+.task-container ul li > span {
+  vertical-align: middle;
 }
